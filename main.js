@@ -1,9 +1,7 @@
 // main.js
-import React from "react";
-import { createRoot } from "react-dom/client";
-import App from "./App";
-
-// Mount React app into index.html
-const container = document.getElementById("root");
-const root = createRoot(container);
-root.render(<App />);
+document.getElementById("root").innerHTML = `
+  <h1 style="color:#2563eb; text-align:center; margin-top:50px;">
+    🌍 Global English Learning Platform
+  </h1>
+  <p style="text-align:center;">Your app is working! 🎉</p>
+`;
